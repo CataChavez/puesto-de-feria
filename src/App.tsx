@@ -10,7 +10,10 @@ function App() {
       </div>
       <FirstComponent name="Catty"/> {/* aqui se importa el componente creado en el archivo "FirstComponent.tsx*/}      
       
-      <Welcome></Welcome>
+      <div>
+        <Welcome></Welcome>
+      </div>
+    
       <AddToCart></AddToCart>
     </div>
     
