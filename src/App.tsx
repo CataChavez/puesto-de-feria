@@ -1,5 +1,4 @@
-import FirstComponent from './components/firstComponent/FirstComponent';// se importa el componente del archivo FirtComponent.tsx
-import AddToCart from './components/addToCart/AddToCart';
+import Client from './components/client/Client';// se importa el componente del archivo Client.tsx
 import Welcome from './containers/welcome/Welcome';
 
 function App() {
@@ -7,14 +6,13 @@ function App() {
     <div className="App">
       <div className="alert alert-primary">
         Puesto de Feria
+      <Client name="Catherine"/> {/* aqui se importa el componente creado en el archivo "FirstComponent.tsx*/}      
       </div>
-      <FirstComponent name="Catty"/> {/* aqui se importa el componente creado en el archivo "FirstComponent.tsx*/}      
       
       <div>
         <Welcome></Welcome>
       </div>
     
-      <AddToCart></AddToCart>
     </div>
     
   );

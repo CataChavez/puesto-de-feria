@@ -1,7 +1,5 @@
-import styles from './AddToCart.module.css';
-
 const AddToCart = () => (
-    <button className={styles.primaryButton}>Confirmar</button>
+    <button className="btn btn-primary">Confirmar</button>
 )
 
 export default AddToCart;
