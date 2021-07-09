@@ -1,0 +1,11 @@
+[
+    { "title": "Manzana", "price": 100, "stock": 20},
+    { "title": "Pera", "price": 150, "stock": 10 },
+    { "title": "Naranja", "price": 300, "stock": 10 },
+    { "title": "Plátano", "price": 200, "stock": 5 },
+    { "title": "Mango", "price": 500, "stock": 1 },
+    { "title": "Mandarina", "price": 150, "stock": 2 },
+    { "title": "Chirimoya", "price": 500, "stock": 20 },
+    { "title": "Clementinas", "price": 50, "stock": 50 },
+    { "title": "Piña", "price": 1000, "stock": 1 }
+]
